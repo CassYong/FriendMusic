@@ -1,0 +1,61 @@
+﻿@model IEnumerable<FriendMusic.Models.Artist>
+
+@{
+    ViewData["Title"] = "Artists";
+}
+
+<div class="row mb-3">
+    <div class="col">
+        <h1>Artists</h1>
+    </div>
+    <div class="col text-end">
+        <a href="@Url.Action("Create", "Artist")" class="btn btn-warning">Add New Artist</a>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var artist in Model)
+    {
+        <div class="col mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>@artist.Name</strong></h5>
+                    <p class="card-text">@artist.Biography</p>
+                    <p class="card-text"><strong>Number of Albums: </strong>@artist.Albums.Count()</p>
+                </div>
+                <div class="card-footer">
+                    <div class="btn-group" role="group" aria-label="Artist Actions">
+                        <a href="@Url.Action("Edit", "Artist", new { id = artist.Id })" class="btn btn-primary">Edit</a>
+                        <form asp-action="Delete" asp-route-id="@artist.Id" method="post" onsubmit="return confirm('Are you sure you want to delete this artist?');">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </div>
+                    <a href="@Url.Action("Details", "Artist", new { id = artist.Id })" class="btn btn-warning">View Albums</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<!-- Pagination Controls -->
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+            <a class="page-link" href="@Url.Action("Index", new { pageNumber = ViewBag.CurrentPage - 1 })" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        @for (var i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { pageNumber = i })">@i</a>
+            </li>
+        }
+        <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+            <a class="page-link" href="@Url.Action("Index", new { pageNumber = ViewBag.CurrentPage + 1 })" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>

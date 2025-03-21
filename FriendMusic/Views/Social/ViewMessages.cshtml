@@ -1,0 +1,132 @@
+﻿@using System.Security.Claims
+@model List<FriendMusic.Models.Message>
+
+@{
+    ViewData["Title"] = "View Messages";
+    var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+    // Determine the receiver's name from the messages
+    var receiver = Model.FirstOrDefault(m => m.SenderId != currentUserId)?.Sender
+                   ?? Model.FirstOrDefault(m => m.ReceiverId != currentUserId)?.Receiver;
+
+    var receiverName = receiver != null ? receiver.UserName : "Unknown";
+}
+
+<style>
+    .email-container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        font-family: Arial, sans-serif;
+    }
+
+    .message {
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .message-sender {
+        background-color: #f0f0f0;
+        border: 1px solid #ddd;
+    }
+
+    .message-receiver {
+        background-color: #e2f1ff;
+        border: 1px solid #bddbff;
+    }
+
+    .message-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .message-content {
+        margin-top: 10px;
+        line-height: 1.6;
+        position: relative;
+    }
+
+    .message-timestamp {
+        font-size: 12px;
+        color: #777;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .message-actions {
+        position: absolute;
+        top:12px;
+        bottom: 7px;
+        right: 8px;
+        display: flex;
+        gap: 5px; 
+    }
+
+    .delete-button, .edit-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .delete-button {
+        color: #d9534f;
+    }
+
+    .edit-button {
+        color: #0275d8;
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="email-container">
+        <h1>Conversation with @receiverName</h1>
+
+        @if (Model.Count == 0)
+        {
+            <p>No messages.</p>
+        }
+        else
+        {
+            @foreach (var message in Model)
+            {
+                <div class="message @(message.SenderId == currentUserId ? "message-sender" : "message-receiver")">
+                    <div class="message-header">
+                        <h5>@(message.SenderId == currentUserId ? "You" : message.Sender.UserName)</h5>
+                        <span class="message-timestamp">@((message.SentAt != null ? message.SentAt.ToString("yyyy-MM-dd HH:mm:ss") : "Unknown Date"))</span>
+                    </div>
+                    <div class="message-content">
+                        @message.Content
+                        @if (message.SenderId == currentUserId)
+                        {
+                            <div class="message-actions">
+                                <form asp-action="DeleteMessage" asp-route-messageId="@message.Id" method="post" style="display:inline;" onsubmit="return confirmDelete()">
+                                    <button type="submit" class="delete-button" title="Delete this message">🗑️</button>
+                                </form>
+                                <a asp-action="EditMessage" asp-route-messageId="@message.Id" class="edit-button" title="Edit this message">✏️</a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+<!-- JavaScript to handle confirmation dialog -->
+<script>
+    function confirmDelete() {
+        return confirm("Are you sure you want to delete this message?");
+    }
+</script>

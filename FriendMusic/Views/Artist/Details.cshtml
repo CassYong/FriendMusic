@@ -1,0 +1,99 @@
+﻿@model FriendMusic.Models.Artist
+
+@{
+    ViewData["Title"] = "Artist Details";
+}
+
+<style>
+    .new-release-tag {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1;
+        padding: 4px 8px;
+        background-color: #2E8B57;
+        color: white;
+        font-size: 0.8em;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(50, 205, 50, 0.8);
+    }
+
+    .album-card {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .album-card:hover {
+            box-shadow: 0 8px 16px rgba(50, 205, 50, 0.8);
+        }
+
+    .btn-all-albums {
+        background-color: #2E8B57;
+        color: white;
+    }
+
+        .btn-all-albums:hover {
+            background-color: #3CB371;
+        }
+
+    .btn-group {
+        margin-top: 20px;
+    }
+</style>
+
+<h1>@Model.Name</h1>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">Albums by @Model.Name</h5>
+        @if (Model.Albums.Any())
+        {
+            var sortedAlbums = Model.Albums.OrderByDescending(a => a.ReleaseDate).ToList();
+
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                @foreach (var album in sortedAlbums)
+                {
+                    var daysDifference = (DateTime.Today - album.ReleaseDate.Date).Days;
+
+                    <div class="col mb-4">
+                        <div class="card h-100 shadow-sm album-card">
+                            <div style="position: relative;">
+                                @if (!string.IsNullOrEmpty(album.AlbumArtUrl))
+                                {
+                                    <img src="@album.AlbumArtUrl" class="card-img-top" alt="Album Art">
+                                }
+                                else
+                                {
+                                    <div class="card-img-top bg-secondary text-white text-center p-2">
+                                        No album art available
+                                    </div>
+                                }
+
+                                @if (daysDifference >= 0 && daysDifference <= 60)
+                                {
+                                    <span class="new-release-tag">New Release</span>
+                                }
+                            </div>
+
+                            <div class="card-body">
+                                <h5 class="card-title">@album.Title</h5>
+                                <p class="card-text">Released: @album.ReleaseDate.ToShortDateString()</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <p>No albums found for @Model.Name.</p>
+        }
+
+        <div class="btn-group">
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            <a asp-controller="Album" asp-action="Index" class="btn btn-secondary btn-all-albums">All Albums</a>
+        </div>
+    </div>
+</div>

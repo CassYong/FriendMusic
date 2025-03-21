@@ -1,0 +1,28 @@
+﻿@model FriendMusic.Models.Album
+
+@{
+    ViewData["Title"] = "Delete Album";
+}
+
+<h2>Delete Album</h2>
+
+<div>
+    <h3>Are you sure you want to delete this album?</h3>
+    <div>
+        <h4>Title:</h4>
+        <p>@Model.Title</p>
+    </div>
+    <div>
+        <h4>Artist:</h4>
+        <p>@Model.Artist.Name</p>
+    </div>
+    <div>
+        <h4>Release Date:</h4>
+        <p>@Model.ReleaseDate.ToShortDateString()</p>
+    </div>
+
+    <form asp-action="DeleteConfirmed" asp-route-id="@Model.Id" method="post">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

@@ -1,0 +1,24 @@
+﻿@model FriendMusic.ViewModels.SendMessageViewModel
+
+<h1>Send Message to @Model.ReceiverName</h1>
+
+<div class="container mt-3">
+    <form asp-action="SendMessage" asp-route-friendId="@Model.ReceiverId" method="post">
+        <div class="form-group">
+            <label for="Content">Message:</label>
+            <textarea class="form-control" id="Content" asp-for="Content" rows="4" required></textarea>
+            <span asp-validation-for="Content" class="text-danger"></span> <!-- Validation message for Content -->
+        </div>
+        <input type="hidden" asp-for="ReceiverName" />
+        <input type="hidden" asp-for="ReceiverId" /> <!-- Ensure ReceiverId is set -->
+        <br />
+        <div class="form-group">
+                <button type="submit" class="btn btn-primary">Send</button>
+            
+                @if (!string.IsNullOrEmpty(Model.ReceiverId))
+                {
+                    <a href="/Social/ViewMessages?friendId=@Model.ReceiverId" class="btn btn-info btn-block">View Conversation</a>
+                }
+        </div>
+    </form>
+</div>

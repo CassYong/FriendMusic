@@ -1,0 +1,35 @@
+﻿@model FriendMusic.ViewModels.ArtistCreateViewModel
+
+@{
+    ViewData["Title"] = "Create Artist";
+}
+
+<h1>Create Artist</h1>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="Name" class="control-label">Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Biography" class="control-label">Biography</label>
+        <textarea asp-for="Biography" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="Biography" class="text-danger"></span>
+    </div>
+    <br />
+
+
+    <div class="form-group">
+            <button type="submit" class="btn btn-warning btn-block">Create</button>
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

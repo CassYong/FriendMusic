@@ -1,0 +1,37 @@
+﻿@model FriendMusic.ViewModels.FriendRequestViewModel
+
+<h1>Respond to Friend Request</h1>
+
+<p>You have received a friend request from @Model.FriendName.</p>
+
+<form asp-action="Respond" onsubmit="return confirmReject()">
+    <input type="hidden" asp-for="RequesterId" />
+    <input type="hidden" asp-for="FriendId" />
+    <input type="hidden" asp-for="IsAccepted" />
+    <input type="hidden" asp-for="RequestDate" />
+
+    <div class="form-group">
+        <label>Status:</label>
+        <div>
+            <label>
+                <input type="radio" asp-for="IsAccepted" value="true" /> Accept
+            </label>
+            <label>
+                <input type="radio" asp-for="IsAccepted" value="false" /> Reject
+            </label>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Response</button>
+</form>
+
+@section Scripts {
+    <script>
+        function confirmReject() {
+            var isAccepted = document.querySelector('input[name="IsAccepted"]:checked');
+            if (isAccepted && isAccepted.value === 'false') {
+                return confirm('Are you sure you want to reject this friend request?');
+            }
+            return true; // Allow form submission for other cases
+        }
+    </script>
+}

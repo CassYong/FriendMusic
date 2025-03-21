@@ -1,0 +1,605 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FriendMusic.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FriendMusic.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\11e169cc-7afb-46b1-8735-97e5728a4b78_25.jpeg",
+      "PackagePath": "staticwebassets\\albums\\11e169cc-7afb-46b1-8735-97e5728a4b78_25.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\12d46eba-8775-4737-aabe-b2bf86ac5911_depositphotos_522558412-stock-illustration-people-talk-different-language-cannot.jpg",
+      "PackagePath": "staticwebassets\\albums\\12d46eba-8775-4737-aabe-b2bf86ac5911_depositphotos_522558412-stock-illustration-people-talk-different-language-cannot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\167ffe2b-a008-46bd-b12f-e6bd410d50ba_Shawn Mendes.jpeg",
+      "PackagePath": "staticwebassets\\albums\\167ffe2b-a008-46bd-b12f-e6bd410d50ba_Shawn Mendes.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\218a90a5-9c6c-4dc9-942f-e06e8e7daa43_You Never Walk Alone.jpeg",
+      "PackagePath": "staticwebassets\\albums\\218a90a5-9c6c-4dc9-942f-e06e8e7daa43_You Never Walk Alone.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\22a7885f-69d8-4947-b75f-950781912456_IT'z Me.jpeg",
+      "PackagePath": "staticwebassets\\albums\\22a7885f-69d8-4947-b75f-950781912456_IT'z Me.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\29df9583-b424-4860-a638-2a0ed05fedfc_NOEASY.jpeg",
+      "PackagePath": "staticwebassets\\albums\\29df9583-b424-4860-a638-2a0ed05fedfc_NOEASY.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\2b946be4-b379-4bab-88d2-d5a7e8073e07_Kill This Love.jpeg",
+      "PackagePath": "staticwebassets\\albums\\2b946be4-b379-4bab-88d2-d5a7e8073e07_Kill This Love.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\2e09f4e9-5b60-490e-b552-0a42fdfd9c37_24k magic.jpeg",
+      "PackagePath": "staticwebassets\\albums\\2e09f4e9-5b60-490e-b552-0a42fdfd9c37_24k magic.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\2e8446a3-656c-4edd-9479-43cd1fe478a3_When We All Fall Asleep, Where Do We Go.jpeg",
+      "PackagePath": "staticwebassets\\albums\\2e8446a3-656c-4edd-9479-43cd1fe478a3_When We All Fall Asleep, Where Do We Go.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\4234d6a5-dd99-47eb-add4-cf571428c00e_Plus.jpeg",
+      "PackagePath": "staticwebassets\\albums\\4234d6a5-dd99-47eb-add4-cf571428c00e_Plus.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\47d71528-7268-4283-a8b3-76b9208e47a7_divide.jpeg",
+      "PackagePath": "staticwebassets\\albums\\47d71528-7268-4283-a8b3-76b9208e47a7_divide.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\4fae1366-121c-46a8-a834-9cd870eaf2df_MAMACITA.jpeg",
+      "PackagePath": "staticwebassets\\albums\\4fae1366-121c-46a8-a834-9cd870eaf2df_MAMACITA.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\5093d5df-bc9a-4af1-a61a-05861c74fe71_Obsession.jpeg",
+      "PackagePath": "staticwebassets\\albums\\5093d5df-bc9a-4af1-a61a-05861c74fe71_Obsession.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\5ac7690f-0b6c-4692-8980-0f479479d529_XOXO.jpeg",
+      "PackagePath": "staticwebassets\\albums\\5ac7690f-0b6c-4692-8980-0f479479d529_XOXO.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\5cf51b5c-8c8d-4084-8069-ae6f9cce5c75_The Boys.jpeg",
+      "PackagePath": "staticwebassets\\albums\\5cf51b5c-8c8d-4084-8069-ae6f9cce5c75_The Boys.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\60558056-966f-4ddc-a32f-2c5c11e62abc_test.jpeg",
+      "PackagePath": "staticwebassets\\albums\\60558056-966f-4ddc-a32f-2c5c11e62abc_test.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\6072d79a-dd4f-494e-828e-f6fb48f8d6f0_an evening with silk sonic.jpeg",
+      "PackagePath": "staticwebassets\\albums\\6072d79a-dd4f-494e-828e-f6fb48f8d6f0_an evening with silk sonic.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\6e4d6f90-e745-491c-94c7-42b93b86199c_Screenshot 2024-03-11 141900.png",
+      "PackagePath": "staticwebassets\\albums\\6e4d6f90-e745-491c-94c7-42b93b86199c_Screenshot 2024-03-11 141900.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\7188210c-4cf1-4938-97ed-bdae9cd7209c_fearless.jpeg",
+      "PackagePath": "staticwebassets\\albums\\7188210c-4cf1-4938-97ed-bdae9cd7209c_fearless.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\747ac8e6-e371-41ff-a6f2-579d846496b2_I Got a Boy.jpeg",
+      "PackagePath": "staticwebassets\\albums\\747ac8e6-e371-41ff-a6f2-579d846496b2_I Got a Boy.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\772e1323-290b-4baa-84e6-51fb4817911f_EX'ACT.png",
+      "PackagePath": "staticwebassets\\albums\\772e1323-290b-4baa-84e6-51fb4817911f_EX'ACT.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\7764b558-ac37-432f-b5d6-2ef8ed5852b9_79879260-0211-46bb-abcd-968fb4e2c0ea.webp",
+      "PackagePath": "staticwebassets\\albums\\7764b558-ac37-432f-b5d6-2ef8ed5852b9_79879260-0211-46bb-abcd-968fb4e2c0ea.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\80723909-abbc-4a67-971f-265d794339c5_Palette.jpeg",
+      "PackagePath": "staticwebassets\\albums\\80723909-abbc-4a67-971f-265d794339c5_Palette.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\85d4451d-ed8e-45ac-998f-22be3ffd4579_Kill This Love.jpeg",
+      "PackagePath": "staticwebassets\\albums\\85d4451d-ed8e-45ac-998f-22be3ffd4579_Kill This Love.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\8828afe1-352f-47b4-85d9-3aacd667c4be_THE ALBUM.jpeg",
+      "PackagePath": "staticwebassets\\albums\\8828afe1-352f-47b4-85d9-3aacd667c4be_THE ALBUM.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\88745f69-af94-470c-9e9e-2c7feb0b3e1a_Taste of Love.jpeg",
+      "PackagePath": "staticwebassets\\albums\\88745f69-af94-470c-9e9e-2c7feb0b3e1a_Taste of Love.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\89bbae74-ec1c-4719-b1f2-98d7de07227e_GUESS WHO.jpeg",
+      "PackagePath": "staticwebassets\\albums\\89bbae74-ec1c-4719-b1f2-98d7de07227e_GUESS WHO.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\8cbdc19c-ce08-43fc-8f92-22c82666d807_79879260-0211-46bb-abcd-968fb4e2c0ea.webp",
+      "PackagePath": "staticwebassets\\albums\\8cbdc19c-ce08-43fc-8f92-22c82666d807_79879260-0211-46bb-abcd-968fb4e2c0ea.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\93c0f079-e7c5-42ae-a624-8f804123f661_Eyes Wide Open.jpeg",
+      "PackagePath": "staticwebassets\\albums\\93c0f079-e7c5-42ae-a624-8f804123f661_Eyes Wide Open.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\955bce97-76bb-40e1-b33c-42e5efb5a014_Dark & Wild.jpeg",
+      "PackagePath": "staticwebassets\\albums\\955bce97-76bb-40e1-b33c-42e5efb5a014_Dark & Wild.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\97183fe9-d1bb-4f9a-b6de-f191c444da0e_Holiday Night.jpeg",
+      "PackagePath": "staticwebassets\\albums\\97183fe9-d1bb-4f9a-b6de-f191c444da0e_Holiday Night.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\9d0b1f83-a1a3-4ee9-9aa3-15bc1e692402_O!RUL8,2.jpeg",
+      "PackagePath": "staticwebassets\\albums\\9d0b1f83-a1a3-4ee9-9aa3-15bc1e692402_O!RUL8,2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\9d2fa623-4514-43bb-85d5-f95f4add9e66_images.jpeg",
+      "PackagePath": "staticwebassets\\albums\\9d2fa623-4514-43bb-85d5-f95f4add9e66_images.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\9fa9922e-5220-4405-a7bc-f93affeae73a_equal.jpeg",
+      "PackagePath": "staticwebassets\\albums\\9fa9922e-5220-4405-a7bc-f93affeae73a_equal.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\a4c190c5-8cf6-4db6-a521-15fe6e8b0a1b_79879260-0211-46bb-abcd-968fb4e2c0ea.webp",
+      "PackagePath": "staticwebassets\\albums\\a4c190c5-8cf6-4db6-a521-15fe6e8b0a1b_79879260-0211-46bb-abcd-968fb4e2c0ea.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\b0b4577d-87d4-41a6-b867-536eedd4d123_The War.jpeg",
+      "PackagePath": "staticwebassets\\albums\\b0b4577d-87d4-41a6-b867-536eedd4d123_The War.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\b3537d17-36e5-412c-b6a9-6b07bf8cdfe9_Happier Than Ever.jpeg",
+      "PackagePath": "staticwebassets\\albums\\b3537d17-36e5-412c-b6a9-6b07bf8cdfe9_Happier Than Ever.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\b781628f-6f02-4858-a45d-094a15ec68e3_Butter.png",
+      "PackagePath": "staticwebassets\\albums\\b781628f-6f02-4858-a45d-094a15ec68e3_Butter.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\b8d0ac02-7429-41bb-ac0f-e98ca2503134_renaissance.jpeg",
+      "PackagePath": "staticwebassets\\albums\\b8d0ac02-7429-41bb-ac0f-e98ca2503134_renaissance.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\bc4af9c1-d400-45c7-a7bc-68a6fafb8747_Purpose.jpeg",
+      "PackagePath": "staticwebassets\\albums\\bc4af9c1-d400-45c7-a7bc-68a6fafb8747_Purpose.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\bd6583a8-1019-499f-b6c6-c184c8af024a_red.jpeg",
+      "PackagePath": "staticwebassets\\albums\\bd6583a8-1019-499f-b6c6-c184c8af024a_red.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\bd6ab9ab-d0d0-4ae7-b835-33205d2b465a_Wings.png",
+      "PackagePath": "staticwebassets\\albums\\bd6ab9ab-d0d0-4ae7-b835-33205d2b465a_Wings.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\c2605efe-3506-40b9-b579-3f4d134f72f6_Subtract.jpeg",
+      "PackagePath": "staticwebassets\\albums\\c2605efe-3506-40b9-b579-3f4d134f72f6_Subtract.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\c46f20dc-9414-4164-a8f0-447b268cd188_BLACKPINK.jpeg",
+      "PackagePath": "staticwebassets\\albums\\c46f20dc-9414-4164-a8f0-447b268cd188_BLACKPINK.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\c7c80d33-6ce6-4713-83e2-234033c798b9_Lion Heart.jpeg",
+      "PackagePath": "staticwebassets\\albums\\c7c80d33-6ce6-4713-83e2-234033c798b9_Lion Heart.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\ca1edf90-0e94-4def-accb-1f49646853dd_30.jpeg",
+      "PackagePath": "staticwebassets\\albums\\ca1edf90-0e94-4def-accb-1f49646853dd_30.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\cfd66048-3e08-40fd-b547-8d93edec28d4_Don't Mess Up My Tempo.jpeg",
+      "PackagePath": "staticwebassets\\albums\\cfd66048-3e08-40fd-b547-8d93edec28d4_Don't Mess Up My Tempo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\d955a8df-10de-474d-b017-904e1add96f4_LILAC.jpeg",
+      "PackagePath": "staticwebassets\\albums\\d955a8df-10de-474d-b017-904e1add96f4_LILAC.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\da865430-672a-4be1-9270-f3bca8868d08_Justice.jpeg",
+      "PackagePath": "staticwebassets\\albums\\da865430-672a-4be1-9270-f3bca8868d08_Justice.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\da9bc947-b95d-463e-be91-a4e8665af26b_Mr. Simple.jpeg",
+      "PackagePath": "staticwebassets\\albums\\da9bc947-b95d-463e-be91-a4e8665af26b_Mr. Simple.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\e3613995-9f3c-4868-b731-a0371603934a_lemonade.jpeg",
+      "PackagePath": "staticwebassets\\albums\\e3613995-9f3c-4868-b731-a0371603934a_lemonade.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\ec757edd-42ea-4faa-b842-81e20d1ac5d1_Romantic-Song-Album-Cover-Template.jpg",
+      "PackagePath": "staticwebassets\\albums\\ec757edd-42ea-4faa-b842-81e20d1ac5d1_Romantic-Song-Album-Cover-Template.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\f0ac6aad-0c4e-42f4-be77-9c7aa95a3c68_Multiply.jpeg",
+      "PackagePath": "staticwebassets\\albums\\f0ac6aad-0c4e-42f4-be77-9c7aa95a3c68_Multiply.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\f897f664-38b0-4ff5-9d48-85870fc71ab5_Wonder.jpeg",
+      "PackagePath": "staticwebassets\\albums\\f897f664-38b0-4ff5-9d48-85870fc71ab5_Wonder.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\faa0b569-f325-406b-b28b-c61b38881469_Not Shy.jpeg",
+      "PackagePath": "staticwebassets\\albums\\faa0b569-f325-406b-b28b-c61b38881469_Not Shy.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\fd243d1f-8bad-4a91-804e-820ac74a7f6f_Permission to Dance.jpeg",
+      "PackagePath": "staticwebassets\\albums\\fd243d1f-8bad-4a91-804e-820ac74a7f6f_Permission to Dance.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\fe5734e2-0a1e-4520-a11c-80aea3f5f41c_2 Cool 4 Skool.jpeg",
+      "PackagePath": "staticwebassets\\albums\\fe5734e2-0a1e-4520-a11c-80aea3f5f41c_2 Cool 4 Skool.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\albums\\ffd64e94-25ea-4b51-ab9e-be779dce276d_Love Poem.jpeg",
+      "PackagePath": "staticwebassets\\albums\\ffd64e94-25ea-4b51-ab9e-be779dce276d_Love Poem.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\assets\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\assets\\videos\\music.mp4",
+      "PackagePath": "staticwebassets\\assets\\videos\\music.mp4"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\css\\divider.png",
+      "PackagePath": "staticwebassets\\css\\divider.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\js\\audio.min.js",
+      "PackagePath": "staticwebassets\\js\\audio.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\00f966cf-4b00-4b32-a79d-89e34191b34f_Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\00f966cf-4b00-4b32-a79d-89e34191b34f_Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\081ea967-7f68-46f6-a843-78ae47f8912f_s1.mp4",
+      "PackagePath": "staticwebassets\\music\\081ea967-7f68-46f6-a843-78ae47f8912f_s1.mp4"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\11bb868f-0746-4d5b-9ead-53cd00b31209_Butter.mp3",
+      "PackagePath": "staticwebassets\\music\\11bb868f-0746-4d5b-9ead-53cd00b31209_Butter.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\1ea375e9-4691-471b-bb37-bcf513a5f8a9_Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\1ea375e9-4691-471b-bb37-bcf513a5f8a9_Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\23d01384-1bcb-4be4-8365-5e83984e0148_Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\23d01384-1bcb-4be4-8365-5e83984e0148_Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\2c32bcd0-99d4-46f1-a762-e6bc18783f74_Shape Of You.mp3",
+      "PackagePath": "staticwebassets\\music\\2c32bcd0-99d4-46f1-a762-e6bc18783f74_Shape Of You.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\2e5add8b-b9d5-4095-9b96-2ef566cfb76a_The Stay.mp3",
+      "PackagePath": "staticwebassets\\music\\2e5add8b-b9d5-4095-9b96-2ef566cfb76a_The Stay.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\301c2ce1-81a7-424b-88cb-0f4ecc848ebe_Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\301c2ce1-81a7-424b-88cb-0f4ecc848ebe_Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\33e669c9-3b50-4011-9c98-ca200f8add09_Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\33e669c9-3b50-4011-9c98-ca200f8add09_Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\4413cb74-c97e-4cd3-ab8b-4f2330ca09b8_Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\4413cb74-c97e-4cd3-ab8b-4f2330ca09b8_Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\550307dc-557a-4219-a647-709c700af27d_Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\550307dc-557a-4219-a647-709c700af27d_Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\650971a1-b815-4b46-aa2d-7abaf7ece673_Alamak Raya Lagi.mp3",
+      "PackagePath": "staticwebassets\\music\\650971a1-b815-4b46-aa2d-7abaf7ece673_Alamak Raya Lagi.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\7349c5ab-c2b5-42ad-87bb-d2c78f7e7218_Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\7349c5ab-c2b5-42ad-87bb-d2c78f7e7218_Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\84bbf276-18e8-4ad3-abfe-e8b3355bb6c2_Blueming.mp3",
+      "PackagePath": "staticwebassets\\music\\84bbf276-18e8-4ad3-abfe-e8b3355bb6c2_Blueming.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\9f633912-f197-4226-bf54-44f658782096_Blueming.mp3",
+      "PackagePath": "staticwebassets\\music\\9f633912-f197-4226-bf54-44f658782096_Blueming.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\c63bb2b7-cb75-4a03-8d11-7682a51e6584_Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\c63bb2b7-cb75-4a03-8d11-7682a51e6584_Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\cd15660b-f896-45f0-a30a-0d713435db54_Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\cd15660b-f896-45f0-a30a-0d713435db54_Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\e2b6076f-d149-43fc-9e67-8b634f62f88a_Advertisement background music for commercials.mp3",
+      "PackagePath": "staticwebassets\\music\\e2b6076f-d149-43fc-9e67-8b634f62f88a_Advertisement background music for commercials.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\f0624e8f-57dd-49a8-aac2-4c3b3664de51_Someone Like You.mp3",
+      "PackagePath": "staticwebassets\\music\\f0624e8f-57dd-49a8-aac2-4c3b3664de51_Someone Like You.mp3"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\f078fe32-b3df-433a-8742-c9d4b6eb428a_s1.mp4",
+      "PackagePath": "staticwebassets\\music\\f078fe32-b3df-433a-8742-c9d4b6eb428a_s1.mp4"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\C#\\FriendMusic\\FriendMusic\\wwwroot\\music\\fd534caf-3157-428f-a1b3-7aa624be3d67_Butter.mp3",
+      "PackagePath": "staticwebassets\\music\\fd534caf-3157-428f-a1b3-7aa624be3d67_Butter.mp3"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FriendMusic.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FriendMusic.props",
+      "PackagePath": "build\\FriendMusic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FriendMusic.props",
+      "PackagePath": "buildMultiTargeting\\FriendMusic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FriendMusic.props",
+      "PackagePath": "buildTransitive\\FriendMusic.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

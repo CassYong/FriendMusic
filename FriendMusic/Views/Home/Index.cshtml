@@ -1,0 +1,146 @@
+﻿@model IEnumerable<FriendMusic.Models.Album>
+
+@{
+    ViewData["Title"] = "Friend Music - Home";
+}
+
+<!-- Include FontAwesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-OD5+dbv7Q+O5a/ntpo5XIbfa4Ro4yTFLpYCrIR4DRpsfj8vR1wZw5JQA93e5+l9x" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-pzjw8f+ua7Kw1TIq5A1u1RYfWcdaK5iYjz+2QZZeI4LRD7H2g9P4skldOy8YdMtq" crossorigin="anonymous">
+
+<!-- Custom Styles -->
+<style>
+    .jumbotron {
+        background-size: cover;
+        color: black;
+        margin-top: -18px;
+        border-radius: 0;
+    }
+
+        .jumbotron .btn {
+            margin: 0 10px;
+        }
+
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        border: 2px solid transparent; /* Default border */
+    }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+    /* Define border colors for each card type on hover */
+    .user-management:hover .card-body {
+        border-color: #007bff; /* Primary color */
+        box-shadow: 0 4px 20px rgba(0, 123, 255, 0.5); /* Primary shadow */
+    }
+
+    .music-library:hover .card-body {
+        border-color: #28a745; /* Success color */
+        box-shadow: 0 4px 20px rgba(40, 167, 69, 0.5); /* Success shadow */
+    }
+
+    .artist-management:hover .card-body {
+        border-color: #ffc107; /* Warning color */
+        box-shadow: 0 4px 20px rgba(255, 193, 7, 0.5); /* Warning shadow */
+    }
+
+    .social-interactions:hover .card-body {
+        border-color: #17a2b8; /* Info color */
+        box-shadow: 0 4px 20px rgba(23, 162, 184, 0.5); /* Info shadow */
+    }
+
+    .card-body {
+        padding: 2rem;
+        border-color: transparent; /* Default border color */
+    }
+
+    .card-title {
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .card i {
+        color: #343a40;
+    }
+
+        /* Icon styles */
+        .card i.fa {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+</style>
+
+<!-- Main Content Container -->
+<div class="container mt-5">
+    <!-- Hero Section -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Friend Music</h1>
+        <p class="lead">Discover, share, and enjoy music with friends!</p>
+    </div>
+
+    <!-- Features Section -->
+    <div class="row">
+        <!-- User Management and Personalization -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow-sm bg-light rounded border-0 user-management">
+                <div class="card-body text-center">
+                    <i class="fas fa-user fa-3x mb-3 text-primary"></i>
+                    <h5 class="card-title">User Management</h5>
+                    <p class="card-text">Create your profile, and connect with the community.</p>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a href="/Profile/Index" class="btn btn-outline-primary">View Profile</a>
+                        <a href="/Profile/EditProfile" class="btn btn-outline-primary">Edit Profile</a>
+                    }
+                    else
+                    {
+                        <a href="/Identity/Account/Login" class="btn btn-outline-primary">Log In to Manage Profile</a>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Music Library and Playback -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow-sm bg-light rounded border-0 music-library">
+                <div class="card-body text-center">
+                    <i class="fas fa-music fa-3x mb-3 text-success"></i>
+                    <h5 class="card-title">Music Library and Playback</h5>
+                    <p class="card-text">Upload, organize, and enjoy your favorite tracks.</p>
+                    <a href="/Music/Library" class="btn btn-outline-success">My Music Library</a>
+                    <a href="/Music/Upload" class="btn btn-outline-success">Upload Music</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Artist and Album Management -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow-sm bg-light rounded border-0 artist-management">
+                <div class="card-body text-center">
+                    <i class="fas fa-list fa-3x mb-3 text-warning"></i>
+                    <h5 class="card-title">Artist and Album</h5>
+                    <p class="card-text">Discover artists and explore albums.</p>
+                    <a href="/Artist/Index" class="btn btn-outline-warning">Artist Lists</a>
+                    <a href="/Album/Index" class="btn btn-outline-warning">Album Lists</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Interactions and Music Sharing -->
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow-sm bg-light rounded border-0 social-interactions">
+                <div class="card-body text-center">
+                    <i class="fas fa-share-alt fa-3x mb-3 text-info"></i>
+                    <h5 class="card-title">Social Interactions</h5>
+                    <p class="card-text">Connect with friends.</p>
+                    <a href="/Social/Index" class="btn btn-outline-info">Friends Lists</a>
+                    <a href="/Social/Create" class="btn btn-outline-info">Send Request</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha384-33jFbj7WgxuyqXtgno/+OCVX1jw3+VAd4V+wHVhzVDw8MP+4L4NkyQ6Zx+5vU7jF" crossorigin="anonymous"></script>

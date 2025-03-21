@@ -1,0 +1,25 @@
+﻿@model FriendMusic.ViewModels.FriendshipCreateViewModel
+
+<h1>Send Friend Request</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="FriendId">Friend's Email:</label>
+        <input asp-for="FriendId" class="form-control" />
+        <span asp-validation-for="FriendId" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Send Request</button>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+
+</form>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

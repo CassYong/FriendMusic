@@ -1,0 +1,108 @@
+﻿@model List<FriendMusic.Models.Friendship>
+
+@{
+    var currentUserId = ViewData["CurrentUserId"]?.ToString();
+}
+
+<div class="row mb-3">
+    <div class="col">
+        <h1>Friend List</h1>
+    </div>
+    <div class="col text-end">
+        <a asp-action="Create" class="btn btn-primary">Send Friend Request</a>
+    </div>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Status</th>
+            <th>Request Date</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var friendship in Model)
+        {
+            <tr>
+                <td>
+                    @if (friendship.RequesterId == currentUserId)
+                    {
+                        @friendship.Friend.UserName
+                    }
+                    else
+                    {
+                        @friendship.Requester.UserName
+                    }
+                </td>
+                <td>
+                    @{
+                        string status;
+                        if (friendship.IsAccepted == false)
+                        {
+                            status = "Pending";
+                        }
+                        else if (friendship.IsAccepted == true)
+                        {
+                            status = "Accepted";
+                        }
+                        else
+                        {
+                            status = "Rejected";
+                        }
+                    }
+                    @status
+                </td>
+                <td>@friendship.RequestDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>
+                    <div class="d-flex align-items-center">
+                        @if (status == "Pending")
+                        {
+                            @if (friendship.RequesterId == currentUserId)
+                            {
+                                <form asp-action="Delete" asp-route-id="@friendship.Id" method="post" onsubmit="return confirm('Are you sure you want to delete this friendship?');">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-sm btn-danger me-1">Delete</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <div class="d-flex">
+                                    <form id="acceptForm_@friendship.Id" asp-action="Accept" asp-route-id="@friendship.Id" method="post">
+                                        @Html.AntiForgeryToken()
+                                        <button type="button" onclick="confirmAccept('@friendship.Id')" class="btn btn-primary btn-sm me-1">Accept</button>
+                                    </form>
+                                    <form asp-action="Delete" asp-route-id="@friendship.Id" method="post" onsubmit="return confirm('Are you sure you want to reject this request?');">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-sm btn-danger">Reject</button>
+                                    </form>
+                                </div>
+                            }
+                        }
+                        else if (status == "Accepted")
+                        {
+                            <form asp-action="Delete" asp-route-id="@friendship.Id" method="post" onsubmit="return confirm('Are you sure you want to unfriend this user?');">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-sm btn-warning me-1">Unfriend</button>
+                            </form>
+                            <a asp-action="SendMessage" asp-route-friendId="@(friendship.RequesterId == currentUserId ? friendship.FriendId : friendship.RequesterId)" class="btn btn-sm btn-success">Send Message</a>
+                        }
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        function confirmAccept(id) {
+            if (confirm('Are you sure you want to accept this friend request?')) {
+                document.getElementById('acceptForm_' + id).submit();
+            }
+        }
+    </script>
+}

@@ -1,0 +1,82 @@
+﻿@model FriendMusic.ViewModels.AlbumCreateViewModel
+
+@{
+    ViewData["Title"] = "Create Album";
+}
+
+<h2>Create Album</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data" id="albumForm">
+    <!-- Title -->
+    <div class="form-group">
+        <label asp-for="Title" class="control-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <!-- Release Date -->
+    <div class="form-group">
+        <label asp-for="ReleaseDate" class="control-label"></label>
+        <input asp-for="ReleaseDate" class="form-control" type="date" />
+        <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+    </div>
+    <!-- Artist -->
+    <div class="form-group">
+        <label asp-for="ArtistId" class="control-label">Artist</label>
+        <select asp-for="ArtistId" class="form-control" asp-items="@ViewBag.Artists">
+            <option value="">Select Artist</option>
+        </select>
+        <span asp-validation-for="ArtistId" class="text-danger"></span>
+    </div>
+    <!-- Album Art -->
+    <br />
+    <div class="form-group">
+        <label asp-for="AlbumArt" class="control-label">Album Art (JPEG, PNG, WebP)</label>
+        <div class="custom-file">
+            <input asp-for="AlbumArt" type="file" class="custom-file-input" id="albumArtInput" accept=".jpg,.jpeg,.png,.webp">
+            <label class="custom-file-label" for="albumArtInput">Choose file...</label>
+        </div>
+        <span asp-validation-for="AlbumArt" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        // Client-side validation for album art upload
+        document.getElementById("albumForm").addEventListener("submit", function (event) {
+            var fileInput = document.getElementById("albumArtInput");
+            if (fileInput.files.length > 0) {
+                var validExtensions = [".jpg", ".jpeg", ".png", ".webp"];
+                var isValid = false;
+                var fileExtension = fileInput.files[0].name.split('.').pop().toLowerCase();
+
+                for (var i = 0; i < validExtensions.length; i++) {
+                    if (validExtensions[i] === "." + fileExtension) {
+                        isValid = true;
+                        break;
+                    }
+                }
+
+                if (!isValid) {
+                    event.preventDefault(); // Prevent form submission
+                    alert("Only webp, jpg, and png files are allowed."); // Display alert message
+                }
+            }
+        });
+
+        // Update the label to display the selected filename
+        document.getElementById("albumArtInput").addEventListener("change", function() {
+            var fileName = this.files[0].name;
+            var label = document.querySelector(".custom-file-label");
+            label.textContent = fileName;
+        });
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

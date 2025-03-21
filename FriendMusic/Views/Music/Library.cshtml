@@ -1,0 +1,102 @@
+﻿@model IEnumerable<FriendMusic.Models.Music>
+
+@{
+    ViewData["Title"] = "My Music Library";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="mb-3 text-end">
+    <!-- Use text-end class to align right -->
+    <a asp-action="Upload" class="btn btn-warning">Upload New Music</a>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Album</th>
+            <th>Uploaded On</th>
+            <th>Actions</th> <!-- New column for actions -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var music in Model)
+        {
+            <tr>
+                <td>@music.Title</td>
+                <td>@music.Artist</td>
+                <td>@music.Album</td>
+                <td>@music.UploadDate.ToString("yyyy-MM-dd")</td>
+
+                <td>
+                    <div class="btn-group" role="group" aria-label="Music Actions">
+                        <a asp-action="Edit" asp-route-id="@music.Id" class="btn btn-sm btn-primary">Edit</a>
+                        <form asp-action="DeleteConfirmed" asp-route-id="@music.Id" method="post" onsubmit="return confirm('Are you sure you want to delete this music?');">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
+                        <button type="button" class="btn btn-sm btn-success play-music-btn" data-music-url="@Url.Content(music.FilePath)">Play Music</button>
+                    </div>
+                </td>
+            </tr>
+            <tr class="audio-row" id="audio-@music.Id" style="display:none;">
+                <td colspan="5">
+                    <audio controls class="audio-player" onended="playNext()">
+                        <source src="@Url.Content(music.FilePath)" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        var currentAudioIndex = 0; // Variable to track the current playing audio index
+        var audioRows = document.querySelectorAll('.audio-row'); // Get all audio rows
+
+        // Function to play the next song in the list
+        function playNext() {
+            audioRows[currentAudioIndex].style.display = 'none'; // Hide current audio row
+
+            // Increment index to play the next audio
+            currentAudioIndex = (currentAudioIndex + 1) % audioRows.length;
+
+            var nextAudioRow = audioRows[currentAudioIndex];
+            var audioPlayer = nextAudioRow.querySelector('.audio-player');
+            var musicUrl = nextAudioRow.querySelector('source').src;
+
+            // Update audio source and play
+            audioPlayer.src = musicUrl;
+            nextAudioRow.style.display = 'table-row';
+            audioPlayer.play();
+        }
+
+        // Event listener for Play Music buttons
+        document.querySelectorAll('.play-music-btn').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                // Pause all currently playing audio elements
+                audioRows.forEach(function (row) {
+                    var audioPlayer = row.querySelector('.audio-player');
+                    audioPlayer.pause();
+                    row.style.display = 'none';
+                });
+
+                // Find the audio row associated with the clicked button
+                var audioRow = this.closest('tr').nextElementSibling;
+                var audioPlayer = audioRow.querySelector('.audio-player');
+
+                // Update audio source and play
+                audioPlayer.src = this.getAttribute('data-music-url');
+                audioRow.style.display = 'table-row';
+                audioPlayer.play();
+
+                // Set current audio index to the clicked row
+                currentAudioIndex = Array.from(audioRows).indexOf(audioRow);
+            });
+        });
+    </script>
+}
